@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(245, 123, 123);
+}
+.multiplication-table{
+    display:    grid;
+        grid-template-columns: repeat(11,80px);
+        grid-template-rows: repeat(11,80px);
+        gap: 1px;
+}
+.cell{
+    background-color:   rebeccapurple;
+    line-height:        80px;
+    text-align:         center;
+    font-size:          40px;
+    color:              rgb(176, 204, 73);
+}
+.header{
+    background-color:   rgb(192, 192, 192);
+    color:              rgb(0, 0, 0);
+    font-size:          large;
+}
